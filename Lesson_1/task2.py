@@ -22,5 +22,4 @@ while True:
     if operation=="sqrt":
         print(f'sqrt A {int(math.sqrt(value_a))}' )
         print(f'sqrt B {int(math.sqrt(value_b))}' )
-    else:
-        print("Nein mein Führer")
+    
