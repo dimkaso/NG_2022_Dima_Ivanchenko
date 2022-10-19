@@ -21,5 +21,9 @@ while True:
         
     if operation=="sqrt":
         print(f'sqrt A {int(math.sqrt(value_a))}' )
-        print(f'sqrt B {int(math.sqrt(value_b))}' )
-    
+        print(f'sqrt B {int(math.sqrt(value_b))}' )   
+    continue_ = str(input(f"Do you want to continue (Yes/No): "))
+    if continue_=="No":
+        break
+    elif continue_ == "Yes":
+        exit()
