@@ -25,5 +25,3 @@ while True:
     continue_ = str(input("Do you want to continue (Yes/No): "))
     if continue_=="No":
         break
-    elif continue_ == "Yes":
-        exit()
