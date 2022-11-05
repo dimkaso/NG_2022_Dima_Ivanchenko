@@ -1,17 +1,13 @@
-from gettext import textdomain
-from pydoc import TextDoc
 
-
-alfavit = 'ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ'
-# textdoc = "Terrgvatf"
-textdoc=input("Message to decrypt: ").upper()
+English = 'ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ'
+text=input("Message to decrypt: ").upper()
 shar = 13
-newText=""
-for x in textdoc:
-    pizition= alfavit.find(x)
+Text=""
+for x in text:
+    pizition= English .find(x)
     namepoz = pizition+shar
-    if x in alfavit:
-        newText += alfavit[namepoz]
+    if x in English:
+        Text += English[namepoz]
     else:
-        newText += x
-print(newText)
+        Text += x
+print("\n" , Text)
