@@ -1,6 +1,6 @@
 string = str(input("Enter string pless: "))
 
-# option sentence sort STR
+
 print('1.Do you want to sort a string?\n2.Do you want to count the number of elements?\n3.Do you want to display only vowels?\n4.Do you want consonants?\n5.Do you want to break the word and output and output from the end?\n6.Want to display a word by number?\n7.Print the line again?\n8.Do you want to leave the program?\n ')
 
 
@@ -42,7 +42,7 @@ while True:
     if Option_sentence == '7':
         print(string)
 
-    if Option_sentence == '8':
+    if Option_sentence == '8': 
             break
 
     
